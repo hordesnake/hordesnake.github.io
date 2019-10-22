@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset=utf-8>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+</head>
+<html>
+    <body>
+
+<div class="img"></div>
+<!--
+<img src="img/proto.png">-->
+<style>
+    @import "style.css";
+</style>
+<div class="logo_text" type="Text">Elessar</div>
+<div class="logo_radar"></div>
+
+<!--
+<div class="container">
+-->
+<form action="#" name="login" id="login" method="POST">
+    <!-- placeholder="Email" -->
+<input type="email" id="email_box" value="" placeholder="Email" required autofocus >
+<span class="form_error">Please enter email or password</span>
+    <!-- placeholder="Password" -->
+<input required type="password" id="password_box" placeholder="Password" required>
+</form>
+<!-- <a href="/view-feedbacks" id="feedback">View feedbacks</a> -->
+<img id="radar" src="img/radar.png">
+<!-- <div class="email_box"></div> -->
+<div class="email_boarder"></div>
+<!-- <div class="password">Password</div>> -->
+<div class="password_boarder"></div>
+<!-- <div type="" class="icon_password" > -->
+<img id="icon_password" src="img/icon.png">
+<img id="icon_email" src="img/icon_contact.png">
+<!-- <div class="button" type="submit" onclick="ClickConsole()"></div> -->
+<input type="button" value="Log in" id="button" onclick="processFormData();" />
+<a href="#" id="terms">Terms & Conditions</a>
+    
+
+<script src="operators.js"></script>
+
+</body>
+</html>
