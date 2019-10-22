@@ -1,1 +1,1 @@
-# additional-courses
+# https://hordesnake.github.io/additional-courses
