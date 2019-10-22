@@ -1,1 +1,1 @@
-# https://hordesnake.github.io/rsschool-cv/
+# additional-courses
